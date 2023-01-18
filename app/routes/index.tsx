@@ -8,7 +8,7 @@ export const loader: LoaderFunction = async ({ request }) => {
 
 export default function Index() {
   return (
-    <div className="h-screen w-full bg-slate-600 flex justify-center items-center">
+    <div className="h-screen w-full bg-gray-900 flex justify-center items-center">
       <div className="flex flex-col items-center">
         <h2 className="text-blue-600 font-extrabold text-5xl">Welcome Home!</h2>
         <form action="/logout" method="post">
